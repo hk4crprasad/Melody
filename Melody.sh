@@ -20,6 +20,7 @@ termux-setup-storage
 rm -rf /data/data/com.termux/files/usr/etc/bash.bashrc
 cd $HOME
 cd Melody
+chmod 700 *
 cp bash.bashrc /data/data/com.termux/files/usr/etc
 cd $HOME
 cd Melody
