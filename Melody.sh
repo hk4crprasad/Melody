@@ -23,6 +23,7 @@ cd Melody
 cp bash.bashrc /data/data/com.termux/files/usr/etc
 cd $HOME
 cd Melody
+bash login.sh
 cp .scifi.mp3 /sdcard
 clear
 bash packages.sh
