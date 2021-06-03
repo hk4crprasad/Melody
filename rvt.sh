@@ -17,11 +17,12 @@ echo "                           rverting wait for 10s please"
 cd $HOME
 cd Melody
 cd revert 
-mv bash.bashrc $HOME 
-rm -rf /data/data/com.termux/files/usr/etc/bash.bashrc
+mv bash.bashrc login $HOME 
+rm -rf /data/data/com.termux/files/usr/etc/bash.bashrc /data/data/com.termux/files/usr/bin/login
 cd $HOME
 
-mv bash.bashrc /data/data/com.termux/files/usr/etc
+mv bash.bashrc /data/data/com.termux/files/usr/etc 
+mv login /data/data/com.termux/files/usr/bin/
 echo "             "EXIT FROM TERMUX AND RE OPEN IT AFTER 5 SECONDS |lolcat 
 echo " "
 echo  "            reverted successfully now you can use.....termux normally"
