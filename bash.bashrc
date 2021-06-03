@@ -7,7 +7,7 @@ cd
 alias md="mkdir"
 alias msf="msfconsole"
 alias msfdb="initdb $PREFIX/var/lib/postgresql;pg_ctl -D $PREFIX/var/lib/postgresql start "
-alias clear="clear;printf '\e[0m';figlet Hello"
+alias clear="clear;printf '\e[0m'"
 alias dir="ls"
 alias ins="pkg install"
 alias ains="apt install"
