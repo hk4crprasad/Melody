@@ -15,7 +15,6 @@ echo " "
 # elif prcoceed the login 
 
 #copying login file to bin
-cd $HOME/HP-REMIX
 cp login.py $PREFIX/bin/
 
 #give executable permission to login.py
