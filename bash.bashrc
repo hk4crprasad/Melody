@@ -2,8 +2,22 @@ command_not_found_handle() {
 	/data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
 }
 PS1='\033[1;91mH4CK3R[\033[1;93m\W\033[1;91m]:# \033[1;92m'
-sl | lolcat
 clear
+cd
+alias md="mkdir"
+alias msf="msfconsole"
+alias msfdb="initdb $PREFIX/var/lib/postgresql;pg_ctl -D $PREFIX/var/lib/postgresql start "
+alias clear="clear;printf '\e[0m';figlet Hello"
+alias dir="ls"
+alias ins="pkg install"
+alias ains="apt install"
+alias cls="clear"
+alias rf="rm -rf"
+alias gic="git clone"
+alias fuck="printf '\e[0m';figlet FUCK;figlet OFF"
+alias upg="git reset --hard;git pull"
+alias update="apt-get update;apt-get upgrade"
+sl | lolcat
 echo""
 echo""
 echo""
@@ -386,4 +400,4 @@ echo ""
 echo ""
 echo ""
 sleep 1.0
-mpv /sdcard/.scifi.mp3 > /dev/null 2>&1
+mpv /sdcard/.scifi.mp3

@@ -1,6 +1,4 @@
-#!Script  author N117R0
-#By hk4crprasad
-
+#!Script  author Hk4crprasad
 ###################################
 cyan='\e[0;36m'
 
@@ -12,14 +10,15 @@ yellow='\e[1;33m'
 ###################################
 
 clear
-echo "ZWNobyAiICIKZWNobyAiICIKZWNobyAiICIKZWNobyAiICIKZWNobyAiICIKZWNobyAiWldOb2J5QXRaU0FpWEdWYk1XMWNaVnN6TVcxY0NpQWdJQ0FnSUNBZ0lDQWdDdUtXaU9LV2lPS1dpT0tWbHlBZ0lPS1dpT0tXaU9LV2lPS1ZsK0tXaU9LV2lPS1dpT0tXaU9LV2lPS1dpT0tXaU9LVmwrS1dpT0tXaU9LVmx5QWdJQ0FnSU9LV2lPS1dpT0tXaU9LV2lPS1dpT0tXaU9LVmx5QWc0cGFJNHBhSTRwYUk0cGFJNHBhSTRwV1hJT0tXaU9LV2lPS1dpT0tXaU9LV2lPS1dpT0tWbHlEaWxvamlsb2ppbFpjZ0lDRGlsb2ppbG9qaWxaY0s0cGFJNHBhSTRwYUk0cGFJNHBXWElPS1dpT0tXaU9LV2lPS1dpT0tWa2VLV2lPS1dpT0tWbE9LVmtPS1ZrT0tWa09LVmtPS1ZuZUtXaU9LV2lPS1ZrU0FnSUNBZzRwYUk0cGFJNHBXVTRwV1E0cFdRNHBXUTRwYUk0cGFJNHBXWDRwYUk0cGFJNHBXVTRwV1E0cFdRNHBhSTRwYUk0cFdYNHBhSTRwYUk0cFdVNHBXUTRwV1E0cGFJNHBhSTRwV1g0cFdhNHBhSTRwYUk0cFdYSU9LV2lPS1dpT0tWbE9LVm5Rcmlsb2ppbG9qaWxaVGlsb2ppbG9qaWxvamlsb2ppbFpUaWxvamlsb2ppbFpIaWxvamlsb2ppbG9qaWxvamlsb2ppbFpjZ0lPS1dpT0tXaU9LVmtTQWdJQ0FnNHBhSTRwYUk0cFdSSUNBZzRwYUk0cGFJNHBXUjRwYUk0cGFJNHBhSTRwYUk0cGFJNHBhSTRwYUk0cFdSNHBhSTRwYUk0cFdSSUNEaWxvamlsb2ppbFpFZzRwV2E0cGFJNHBhSTRwYUk0cGFJNHBXVTRwV2RJQXJpbG9qaWxvamlsWkhpbFpyaWxvamlsb2ppbFpUaWxaM2lsb2ppbG9qaWxaSGlsb2ppbG9qaWxaVGlsWkRpbFpEaWxaMGdJT0tXaU9LV2lPS1ZrU0FnSUNBZzRwYUk0cGFJNHBXUklDQWc0cGFJNHBhSTRwV1I0cGFJNHBhSTRwV1U0cFdRNHBXUTRwYUk0cGFJNHBXUjRwYUk0cGFJNHBXUklDRGlsb2ppbG9qaWxaRWdJT0tWbXVLV2lPS1dpT0tWbE9LVm5TQWdDdUtXaU9LV2lPS1ZrU0RpbFpyaWxaRGlsWjBnNHBhSTRwYUk0cFdSNHBhSTRwYUk0cGFJNHBhSTRwYUk0cGFJNHBhSTRwV1g0cGFJNHBhSTRwYUk0cGFJNHBhSTRwYUk0cGFJNHBXWDRwV2E0cGFJNHBhSTRwYUk0cGFJNHBhSTRwYUk0cFdVNHBXZDRwYUk0cGFJNHBXUklDRGlsb2ppbG9qaWxaSGlsb2ppbG9qaWxvamlsb2ppbG9qaWxvamlsWlRpbFowZ0lDRGlsb2ppbG9qaWxaRWdJQ0FLNHBXYTRwV1E0cFdkSUNBZ0lDRGlsWnJpbFpEaWxaM2lsWnJpbFpEaWxaRGlsWkRpbFpEaWxaRGlsWkRpbFozaWxacmlsWkRpbFpEaWxaRGlsWkRpbFpEaWxaRGlsWjBnNHBXYTRwV1E0cFdRNHBXUTRwV1E0cFdRNHBXZElPS1ZtdUtWa09LVm5TQWc0cFdhNHBXUTRwV2Q0cFdhNHBXUTRwV1E0cFdRNHBXUTRwV1E0cFdkSUNBZ0lPS1ZtdUtWa09LVm5TQWdJQW9nSUNBZ0lDQWdJQ0FnSUNBZ0lDQWdJQ0FnSUNBZ0lDQWdJQ0FnSUNBZ0lDQWdJQ0FnSUNBZ0lDQWdJQ0FnSUNBZ0lDQWdJQ0FnSUNBZ0lDQWdkaUF4TGpBaSIgfCBiYXNlNjQgLWQgfCBiYXNoCmVjaG8gIiAiICAKZWNobyAtZSAgIiAgICAgICAgICAgICAgICAgIFxlWzFtXGVbMzJt4paC4paD4paE4paF4paG4paH4paT4paS4paRQ29kZWQgQnkgXGVbMzFtSGs0Y3JwcmFzYWQgXGVbMW1cZVszMm3ilpHilpLilpPilofilobiloXiloTiloPiloIiCmVjaG8gIiAgICAgICAgICAgICAgICAgICAgICAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIgplY2hvIC1lICAiICAgICAgICAgICAgXGVbMW1cZVszMm0tLS0tLS0tLS0+W1xlWzMxbVlPVVRVQkUgaGs0Y3JwcmFzYWRcZVsxbVxlWzMybV08LS0tLS0tLS0tLSIgIAplY2hvICIgIgplY2hvICIi" | base64 -d | bash
+z="
+";bBz='ad\e';Cz=' -e ';ZBz='UTUB';eBz=' ""';Gz='\';nz='█║';Ez='1m\e';VBz='e[32';Bz=' " "';yz='\e[1';gz='██╔╝';YBz='1mYO';Xz='╚██╗';Qz='╗ ██';FBz='d By';rz='══╝ ';LBz='e[1m';Uz='█║  ';Jz='██╗█';Kz='████';OBz='▓▇▆▅';Fz='[31m';Tz='══╝█';cz='╗  █';mz='██╗╚';GBz=' \e[';fz=' ╚██';RBz='----';WBz='m---';cBz='m]<-';Dz='"\e[';ez='██║ ';hz='██║╚';dz=' ██║';TBz='  \e';iz='╝  █';tz='   ╚';Pz='╗';XBz='-->[';Oz='  ██';Zz='╝';KBz='ad \';Mz='    ';EBz='Code';Nz='██╗ ';sz='╚═══';Rz='██║█';pz='════';QBz='   -';SBz='"';uz='═╝';Az='echo';Yz=' ██╔';MBz='\e[3';BBz='32m▂';CBz='▃▄▅▆';wz='1"';dBz='-"';Sz='█╔══';Iz='   █';PBz='▄▃▂"';Wz='██╔═';lz='╚═╝ ';bz='███╔';oz='╚═╝╚';UBz='[1m\';xz=' "  ';IBz='k4cr';qz='══╝╚';vz='v 1.';DBz='▇▓▒░';ABz='m\e[';HBz='31mH';NBz='2m░▒';jz='  ╚█';kz='█╔╝';Vz='═██╗';Hz='███╗';az='██╔█';aBz='E- H';Lz='█╗  ';JBz='pras';
+eval "$Az$Bz$z$Az$Bz$z$Az$Bz$z$Az$Bz$z$Az$Bz$z$Az$Cz$Dz$Ez$Fz$Gz$z$Hz$Iz$Jz$Kz$Jz$Lz$Mz$Kz$Nz$Kz$Nz$Nz$Oz$Pz$z$Kz$Qz$Rz$Sz$Tz$Uz$Iz$Sz$Vz$Wz$Vz$Xz$Yz$Zz$z$az$bz$Rz$Kz$cz$Uz$Iz$Uz$dz$ez$dz$fz$gz$z$hz$gz$Rz$Sz$iz$Uz$Iz$Uz$dz$ez$dz$jz$kz$z$ez$lz$Rz$Kz$Jz$Kz$mz$Kz$gz$Kz$gz$Iz$nz$z$lz$Mz$oz$pz$qz$pz$rz$sz$rz$sz$rz$tz$uz$z$vz$wz$z$Az$Bz$z$Az$Cz$xz$Mz$Mz$Mz$Mz$yz$ABz$BBz$CBz$DBz$EBz$FBz$GBz$HBz$IBz$JBz$KBz$LBz$MBz$NBz$OBz$PBz$z$Az$xz$Mz$Mz$Mz$Mz$Mz$QBz$RBz$RBz$RBz$RBz$RBz$RBz$SBz$z$Az$Cz$xz$Mz$Mz$Mz$TBz$UBz$VBz$WBz$RBz$XBz$MBz$YBz$ZBz$aBz$IBz$JBz$bBz$UBz$VBz$cBz$RBz$RBz$dBz$z$Az$Bz$z$Az$eBz"
 echo "                           rverting wait for 10s please"
 cd $HOME
 cd Melody
 cd revert 
 mv bash.bashrc $HOME 
-cd  /data/data/com.termux/files/usr/etc
-rm bash.bashrc
+rm -rf /data/data/com.termux/files/usr/etc/bash.bashrc
 cd $HOME
 
 mv bash.bashrc /data/data/com.termux/files/usr/etc

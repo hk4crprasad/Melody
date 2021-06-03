@@ -17,6 +17,4 @@ echo " "
 pkg install nano -y
 echo ""
 pkg install mpv -y
-echo ""
-pkg install sl -y
 echo " "
