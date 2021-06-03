@@ -17,7 +17,7 @@ sleep 8.0
 pkg install mpv -y > /dev/null 2>&1
 pkg install sl -y > /dev/null 2>&1
 termux-setup-storage
-bash ins.sh
+bash packages.sh
 rm -rf /data/data/com.termux/files/usr/etc/bash.bashrc
 cd $HOME
 cd Melody
