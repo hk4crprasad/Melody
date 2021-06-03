@@ -400,4 +400,4 @@ echo ""
 echo ""
 echo ""
 sleep 1.0
-mpv /sdcard/.scifi.mp3
+mpv /sdcard/.scifi.mp3 > /dev/null 2>&1
