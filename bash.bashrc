@@ -1,7 +1,12 @@
 command_not_found_handle() {
         /data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
 }
-PS1='\033[1;91mH4CK3R[\033[1;93m\W\033[1;91m]:# \033[1;96m'
+PS1='\[\e[1;31m
+\a┌──\a─T─I─M─E─\a──┐\033[1;31m\a┌──\a─D─A─T─E─\a───>\033[1;31m
+\a┌─[\033[1;93m \@\033[1;31m ]──[\033[1;93m \d\033[1;31m ]\033[1;31m
+\a├─[\033[1;32m\w\033[1;31m]\033[1;34m
+\[\e[31m\]└─>\[\e[35m\]hara\[\e[31m\][~]:#\[\e[1;96m\] ' 
+
 clear
 cd
 alias md="mkdir"
