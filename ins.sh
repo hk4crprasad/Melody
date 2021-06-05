@@ -26,6 +26,7 @@ cat "null.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 cat "cowtext.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 cat "banner.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 cat "tload.txt"  >> /data/data/com.termux/files/usr/etc/bash.bashrc
+cat "melody.txt" >> ~/.bashrc
 echo " "
 echo "                   "Ready to go buddy..... | lolcat
 echo " "
