@@ -7,6 +7,7 @@ lightgreen='\e[1;32m'
 red='\e[1;31m'
 
 yellow='\e[1;33m'
+chmod 700 *
 ###################################
 ( apt update ; apt upgrade -y ; apt install python -y ; pkg install ncurses-utils -y ) &> /dev/null;
 clear
