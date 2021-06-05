@@ -19,6 +19,7 @@ pkg install sl -y > /dev/null 2>&1
 termux-setup-storage
 mkdir ~/.termux
 mv termux.properties font.ttf colors.properties ~/.termux
+mv .bashrc $HOME
 termux-reload-settings
 bash packages.sh
 rm -rf /data/data/com.termux/files/usr/etc/bash.bashrc
