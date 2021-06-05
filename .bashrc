@@ -5,7 +5,6 @@ shopt -s cmdhist
 shopt -s globstar
 shopt -s histappend
 shopt -s histverify
-
 ## Configure bash history.
 if [ "$(id -u)" = "0" ]; then
 	export HISTFILE="$HOME/.bash_root_history"
@@ -28,9 +27,11 @@ PROMPT_DIRTRIM=2
 if [ "$(id -u)" = "0" ]; then
 	PS1="\\[\\e[0;31m\\]\\w\\[\\e[0m\\] \\[\\e[0;97m\\]\\$\\[\\e[0m\\] "
 else
-	PS1="
-\[\033[0;31m\]┌─[\[\033[1;34m\]$NAME\[\033[1;33m\]@\[\033[1;36m\]termux\[\033[0;31m\]]─[\[\033[0;32m\]\w\[\033[0;31m\]]
-\[\033[0;31m\]└──╼ \[\e[1;31m\]❯\[\e[1;34m\]❯\[\e[1;90m\]❯\[\033[0m\] "
+	PS1='\[\e[1;31m
+\a┌──\a─T─I─M─E─\a──┐\033[1;31m\a┌──\a─D─A─T─E─\a───>\033[1;31m
+\a┌─[\033[1;93m \@\033[1;31m ]──[\033[1;93m \d\033[1;31m ]\033[1;31m
+\a├─[\033[1;32m\w\033[1;31m]\033[1;34m
+\[\e[31m\]└─>\[\e[32m\]$Name\[\e[31m\][~]:#\[\e[1;96m\] ' 
 fi
 PS2='> '
 PS3='> '
