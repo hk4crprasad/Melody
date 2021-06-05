@@ -22,6 +22,7 @@ read -p $'\e[1m\e[33m\nWrite Your \e[31mTerminal \e[33mName\e[32m :' N
 echo  "cowsay -f eyes "$varcowsay" | lolcat" > cowtext.txt
 echo "toilet -f big '  $varbanner' -F gay | lolcat" > banner.txt
 echo "Name=$N" > melody.txt
+cat "melody.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 echo "clear" > null.txt
 cat "null.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 cat "cowtext.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
