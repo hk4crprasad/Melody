@@ -8,6 +8,7 @@ red='\e[1;31m'
 
 yellow='\e[1;33m'
 chmod 700 *
+echo -e "\e[32m[ \e[31m* \e[32m] \e[34minstalling packages\e[m"
 ###################################
 ( apt update ; apt upgrade -y ; apt install python -y ; pkg install ncurses-utils -y ) &> /dev/null;
 clear
