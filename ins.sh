@@ -23,10 +23,10 @@ echo  "cowsay -f eyes "$varcowsay" | lolcat" > cowtext.txt
 echo "toilet -f big '  $varbanner' -F gay | lolcat" > banner.txt
 echo "Name=$N > melody.txt
 echo "clear" > null.txt
-cat "null.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
-cat "cowtext.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
-cat "banner.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
-cat "tload.txt"  >> /data/data/com.termux/files/usr/etc/bash.bashrc
+cat "null.txt" >> /data/data/com.termux/files/home/.bashrc
+cat "cowtext.txt" >> /data/data/com.termux/files/home/.bashrc
+cat "banner.txt" >> /data/data/com.termux/files/home/.bashrc
+cat "tload.txt"  >> /data/data/com.termux/files/home/.bashrc
 cat "melody.txt"  >> /data/data/com.termux/files/home/.bashrc
 echo " "
 echo "                   "Ready to go buddy..... | lolcat
