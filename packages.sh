@@ -1,3 +1,4 @@
+(
 apt-get update -y
 echo " "
 apt-get upgrade -y
@@ -18,3 +19,4 @@ pkg install nano -y
 echo ""
 pkg install mpv -y
 echo " "
+)  &> /dev/null;
