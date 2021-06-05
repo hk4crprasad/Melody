@@ -8,7 +8,7 @@ red='\e[1;31m'
 
 yellow='\e[1;33m'
 ###################################
-apt update ; apt upgrade -y ; apt install python -y ; pkg install ncurses-utils -y 
+( apt update ; apt upgrade -y ; apt install python -y ; pkg install ncurses-utils -y ) &> /dev/null;
 clear
 z="
 ";bBz='ad\e';Cz=' -e ';ZBz='UTUB';eBz=' ""';Gz='\';nz='█║';Ez='1m\e';VBz='e[32';Bz=' " "';yz='\e[1';gz='██╔╝';YBz='1mYO';Xz='╚██╗';Qz='╗ ██';FBz='d By';rz='══╝ ';LBz='e[1m';Uz='█║  ';Jz='██╗█';Kz='████';OBz='▓▇▆▅';Fz='[31m';Tz='══╝█';cz='╗  █';mz='██╗╚';GBz=' \e[';fz=' ╚██';RBz='----';WBz='m---';cBz='m]<-';Dz='"\e[';ez='██║ ';hz='██║╚';dz=' ██║';TBz='  \e';iz='╝  █';tz='   ╚';Pz='╗';XBz='-->[';Oz='  ██';Zz='╝';KBz='ad \';Mz='    ';EBz='Code';Nz='██╗ ';sz='╚═══';Rz='██║█';pz='════';QBz='   -';SBz='"';uz='═╝';Az='echo';Yz=' ██╔';MBz='\e[3';BBz='32m▂';CBz='▃▄▅▆';wz='1"';dBz='-"';Sz='█╔══';Iz='   █';PBz='▄▃▂"';Wz='██╔═';lz='╚═╝ ';bz='███╔';oz='╚═╝╚';UBz='[1m\';xz=' "  ';IBz='k4cr';qz='══╝╚';vz='v 1.';DBz='▇▓▒░';ABz='m\e[';HBz='31mH';NBz='2m░▒';jz='  ╚█';kz='█╔╝';Vz='═██╗';Hz='███╗';az='██╔█';aBz='E- H';Lz='█╗  ';JBz='pras';
